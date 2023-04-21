@@ -19,11 +19,17 @@
 目前這個問題最快的解法就是，如下:
 - 開啟MySQL Workbench.
 - 開啟Query頁面，並將以下語法打上去，並且按下查詢鍵.
-> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'; <br>
-  > 請記得'root'跟'password'需要替換成當初所設定的使用者帳號跟密碼.<br>
-  > 'localhost'則是你要設定的url位置.
-- 執行完後，在輸入以下語法，刷新權限即可.
-> flush privileges;
+
+```sql
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'; <br>
+```
+> 請記得'root'跟'password'需要替換成當初所設定的使用者帳號跟密碼.<br>
+> 'localhost'則是你要設定的url位置.
+
+- 執行完後，在輸入以下語法，刷新權限即可解決.
+```sql
+flush privileges;
+```
 
 ---
 <br>
