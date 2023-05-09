@@ -1,7 +1,7 @@
 # ![](https://drive.google.com/uc?id=10INx5_pkhMcYRdx_OO4rXNXxcsvPtBYq) Error: Client does not support authentication protocol requested by server; consider upgrading MySQL client
 > ##### 問題記錄.
 
-<br>
+---
 
 <!--ts-->
 ## 目錄
@@ -10,7 +10,6 @@
 <!--te-->
 
 ---
-<br>
 
 ## 簡介
 由於之前在安裝跟使用MySQL都是在Mac的環境上，剛好今天要在Windows上安裝並使用MySQL，
@@ -32,13 +31,14 @@ flush privileges;
 ```
 
 ---
-<br>
 
 ## 參考資料
 * [MySQL 8.0 - Client does not support authentication protocol requested by server; consider upgrading MySQL client](https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server) <br>
 
 ---
+
 <!--ts-->
 #### [目錄 ↩](#目錄)
 <!--te-->
+
 ---
